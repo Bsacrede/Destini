@@ -14,10 +14,13 @@ struct StoryBrain {
               choice1: "Take a left.", choice2: "Take a right.", choice1Destination: 1, choice2Destination: 2
              ),
         Story(title: "You see a tiger.",
-              choice1: "Shout for help.", choice2: "Play dead.", choice1Destination: 0, choice2Destination: 0
+              choice1: "Shout for help.", choice2: "Play dead.", choice1Destination: 2, choice2Destination: 3
              ),
         Story(title: "You find a trerasure chest.",
-              choice1: "Open it.", choice2: "Check for traps.", choice1Destination: 0, choice2Destination: 0
+              choice1: "Open it.", choice2: "Check for traps.", choice1Destination: 3, choice2Destination: 3
+             ),
+        Story(title: "You see a lion.",
+              choice1: "Shout loud.", choice2: "Play dead.", choice1Destination: 0, choice2Destination: 0
              )
     ]
     
